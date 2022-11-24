@@ -1,0 +1,52 @@
+//GIVE THE REASON WHY ITS TRUE OR FALSE
+
+var a = 5 , b = -3, c = -6
+console.log("start");
+console.log(c<b<c);
+console.log(-6<-3<-6);
+//this was the reason its false
+console.log(-6 < -3);
+//true then (true < false) so it will return the boolean value that is 1 or 0
+console.log(true < false);
+
+
+console.log(c<b<a);
+console.log(-6 < -3 < 5);
+//this was the reason its false
+console.log(-6 < -3);
+//true then (true<false) so it will return the boolean value that is 1 or 0
+console.log(true<false);
+
+
+console.log(c>b<a);
+console.log(-6 > -3 < 5);
+//this was the reason its true
+console.log(-6 > -3);
+//false then (false<true) so it will return the boolean value that is 1 or 0
+console.log(false<true);
+
+
+console.log(a>b<c);
+console.log(5 > -3 < -6);
+//this was the reason its false
+console.log(5 > -3);
+//true then (true<false) so it will return the boolean value that is 1 or 0
+console.log(true<false);
+
+
+console.log(b<a<c);
+console.log(-3 < 5 < -6);
+//this was the reason its false
+console.log(-3 < 5);
+//true then (true<false) so it will return the boolean value that is 1 or 0
+console.log(true<false);
+
+
+console.log (c < c < c);
+console.log(-6 < -6 < -6);
+//this was the reason its false
+console.log(-6 < -6);
+//false then (false<false) so it will return the boolean value that is 1 or 0
+
+
+
